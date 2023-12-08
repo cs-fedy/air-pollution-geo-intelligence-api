@@ -10,6 +10,20 @@ Pandas: A powerful data manipulation library used for merging and analyzing data
 Thefuzz: Employed for fuzzy string matching, enhancing the accuracy of data integration.
 Deep_translator: Applied for multilingual support, ensuring accessibility for a global audience.
 
+## _**ENDPOINTS**_
+
+Endpoint: /countries
+Description: Retrieve a list of all countries with available air pollution data.
+
+Endpoint: /?country=xxx
+Description: Get air pollution data for a specific country by providing the country name in the query parameter.
+
+Endpoint: /?city=xxx
+Description: Retrieve air quality information for a specific city by specifying the city name in the query parameter.
+
+Endpoint: /?type=xxx
+Description: Filter air pollution data based on a specific type, such as particulate matter or pollutant gases.
+
 ## _**INSTALLATION**_:
 ```
 pip install -r requirements.txt
